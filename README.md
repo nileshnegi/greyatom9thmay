@@ -52,4 +52,5 @@ Created on 9th May 2019 (as the name suggests!)<br>
 9. Git Push
 * Final step to push all changes made in local repo to remote repo
 * Take care of access rights; adding the ssh-public key
+* Additional steps needed on Windows and Proxy; check out ~/.ssh/config, ncat, ssh -T git@github.com
 * `git push origin master`
