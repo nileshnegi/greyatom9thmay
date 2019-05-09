@@ -17,5 +17,9 @@ Created on 9th May 2019 (as the name suggests!)<br>
 * Add this newly created file first to local repo and next push it to remote repo
 * `git add <file-name>`
 * `git status` to observe changes
-* Commit these changes using `git commit -m <message>`
+* Commit these changes using `git commit -m "message"`
 * Use `git add -A` to add multiple files
+* Create some more files. Maybe modify existing files
+*`git status` to observe changes
+* `git add -A` to add new files to local repo
+* Commit all these changes at once with `git commit -a -m "message"`
