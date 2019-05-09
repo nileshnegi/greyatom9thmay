@@ -1,1 +1,1 @@
-Random text file 3 to learn git commands
+Random text file 3 used to learn git commands

@@ -1,0 +1,2 @@
+Random text file 5 used to learn git commands
+Created using vim (MINGW64) in branch "branch1" to observe Branching

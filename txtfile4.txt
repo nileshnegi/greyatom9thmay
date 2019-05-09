@@ -1,0 +1,2 @@
+Random text file 4 used to learn git commands
+This one was created in branch "branch1" and not the master branch
