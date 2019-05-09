@@ -37,6 +37,7 @@ Created on 9th May 2019 (as the name suggests!)<br>
 * Make changes in local repo -- created new files and edited this README.md.
 * Typing `ls` in terminal will show these new files in directory
 * Reverting to master branch with `git checkout master` will not display these new files -- thus ensuring what we wanted with Branching (didn't seem to work in Windows!?)
+* It works but you have to add these newly created files with `git add -A` and commit changes in <branch-name> with `git commit -a -m "message"` to see files in <branch-name> but not in master branch
 7. Merging
 * Combining changes from various branches into master is called merging
 * Go to destination branch i.e. master with `git checkout master` and then merge using `git merge <branch-to-merge-name>`
@@ -44,4 +45,11 @@ Created on 9th May 2019 (as the name suggests!)<br>
 * `git pull` - pulls all files from remote repo to local repo
 * `git fetch` - pulls all files from remote repo to local repo but in a different match
 * So `git pull` = `git fetch` + `git merge`
-8. 
+8. Rebasing
+* Kind of merge, but places entire commit history of new branch at the tip of master
+* This reduces number of branches and makes project tree much cleaner
+* `git rebase master`
+9. Git Push
+* Final step to push all changes made in local repo to remote repo
+* Take care of access rights; adding the ssh-public key
+* `git push origin master`
