@@ -23,3 +23,5 @@ Created on 9th May 2019 (as the name suggests!)<br>
 *`git status` to observe changes
 * `git add -A` to add new files to local repo
 * Commit all these changes at once with `git commit -a -m "message"`
+5. Observe git logs
+* `git log` will display all changes in reverse chronological order i.e. last in first out, along with hashkey, timestamps and authors.
